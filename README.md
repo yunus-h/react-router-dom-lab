@@ -1,12 +1,35 @@
-# React + Vite
+# React Router DOM Lab
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+-------------------------------------------------------
 
-Currently, two official plugins are available:
+#### In this lab, you will build an application that simulates a post office, where users can create new mailboxes, view a list of all mailboxes, and explore details about each mailbox.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### You will utilize several client-side routing tools provided by React Router’s library to complete this lab.
 
-## Expanding the ESLint configuration
+#### Here are a few screenshots to reference as you work through this exercise:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+
+![alt text](src/image/list.png)
+
+![alt text](src/image/details.png)
+
+
+![alt text](src/image/new-mailbox.png)
+
+#### Take a look at the component hierarchy diagram below for a sense of how this application will be structured:
+
+
+![alt text](<src/image/chd (1).png>)
+
+
+#### In the list below, you’ll find a brief description of the role of each component in our app:
+
+* App: The root component that orchestrates the entire application.
+* NavBar: Provides navigation links.
+* MailboxForm: Allows users to enter details for and submit new mailboxes.
+* MailboxList: Displays an index list of all mailboxes.
+* MailboxDetails: Shows details about a specific mailbox.
